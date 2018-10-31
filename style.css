@@ -3,7 +3,18 @@ table tr td{
     border-collapse: collapse;
 }
 p{
-    border: 1px ridge red;
+    border: 1px ridge gray;
     padding: 5px;
     border-style: 
 }
+a:active{background-color: lightgray}
+table tr:nth-child(1) {background :rgb(128, 125, 125);}
+ table tr:nth-child(2){background :rgb(153, 152, 152);}
+ table tr:nth-child(3){background:rgb(182, 182, 182);}
+ table tr:nth-child(4){background:rgb(200, 200, 200);}
+ img{
+    float: center;
+    border-radius:10px;
+    border:2px solid #555000;
+    }
+    a{align-items: center;
